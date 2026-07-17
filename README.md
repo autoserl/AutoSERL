@@ -41,11 +41,15 @@ If you have any questions, please contact yuwanliu06@gmail.com.
 
 Our codebase is developed based on [HIL-SERL](https://github.com/rail-berkeley/hil-serl). We sincerely thank the HIL-SERL team for their excellent work.
 
-<!-- ## Citation
+## Citation
 
-If you use this code for your research, please cite our paper:
-
+If our work is helpful to your research, we would appreciate your consideration of citing our paper:
 ```bibtex
-
-``` -->
+@article{liu2026autoserl,
+  title={One Demonstration Is Enough for Real-World Robotic Reinforcement Learning},
+  author={Liu, Yuwan and Yu, Hongze and Liu, Song and Wang, Yuhan and Zhang, Junge and Yang, Yaodong and Chen, Yuanpei and Zhang, Ceyao},
+  journal={arXiv preprint arXiv:2607.01651},
+  year={2026}
+}
+```
 
