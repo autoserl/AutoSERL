@@ -7,7 +7,10 @@
 
 We provide the code and usage instructions for AutoSERL, which is built upon the [HIL-SERL](https://github.com/rail-berkeley/hil-serl) codebase.
 
-**Table of Contents**
+## News
+- **[2026-06]** AutoSERL was accepted to ECCV 2026.
+
+## Table of Contents
 - [One Demonstration Is Enough for Real-World Robotic Reinforcement Learning](#one-demonstration-is-enough-for-real-world-robotic-reinforcement-learning)
   - [Installation](#installation)
   - [Code and Usage Instructions](#code-and-usage-instructions)
