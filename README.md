@@ -48,11 +48,13 @@ Our codebase is developed based on [HIL-SERL](https://github.com/rail-berkeley/h
 
 If our work is helpful to your research, we would appreciate your consideration of citing our paper:
 ```bibtex
-@article{liu2026autoserl,
+@inproceedings{liu2026one,
   title={One Demonstration Is Enough for Real-World Robotic Reinforcement Learning},
   author={Liu, Yuwan and Yu, Hongze and Liu, Song and Wang, Yuhan and Zhang, Junge and Yang, Yaodong and Chen, Yuanpei and Zhang, Ceyao},
-  journal={arXiv preprint arXiv:2607.01651},
-  year={2026}
+  booktitle={European Conference on Computer Vision},
+  pages={38--53},
+  year={2026},
+  organization={Springer}
 }
 ```
 
