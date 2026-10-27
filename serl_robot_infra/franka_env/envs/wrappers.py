@@ -474,7 +474,7 @@ class auto_intervention_wrapper(gym.ActionWrapper):
         self.detect_nomove_window.append(copy.deepcopy(self.current_demo_tcp_list[completed_traj_min_idx]))
         if ((self.before_intervened_completed_traj_min_idx == -1) and (idx != -1)) and (not self.forever_no_window_intervention):
             self.intervened_slide_idx = copy.deepcopy(idx)
-            self.recover_action_list = self.demo_action_in_eeframe_list[self.intervened_slide_idx:(self.intervened_slide_idx_buffer[self.intervened_slide_idx] + 1)]
+            self.recover_action_list = self.demo_action_in_eeframe_list[self.intervened_slide_idx:(max(self.intervened_slide_idx_buffer[self.intervened_slide_idx]) + 1)]
             self.before_intervened_completed_traj_min_idx = copy.deepcopy(idx)
             self.total_recover_cnt += 1
         
